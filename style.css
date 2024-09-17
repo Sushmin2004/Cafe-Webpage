@@ -1,0 +1,237 @@
+body{
+    background-color:  #394956;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-all{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 25px;    
+}
+
+.header-all i{
+    margin-right: 8px;
+}
+
+.header-all h2 {
+    font-weight: 500;
+}
+
+main{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.img-wrapper{
+    background-image: url(chilling-cafe-01.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-table-wrapper h2{
+    text-align: center;
+    color: #996633;
+    padding: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.menu-table-wrapper table {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+    font-weight: 300;
+    border-collapse: collapse;
+}
+
+.menu-table-wrapper td,th{
+    padding: 8px;
+}
+
+.menu-table-wrapper table th{
+    background-color: #8f969c;
+    color: black;
+    font-weight: 400;
+}
+
+.menu-table-wrapper table tr:nth-child(odd){
+    background-color: #c4cdd6;
+}
+
+.coffee-menu-table-wrapper {
+    margin-top: 25px;
+}
+
+.img-item-wrapper img {
+    height: 12rem;
+    width: 13rem;
+}
+
+.img-item-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-item-wrapper figcaption{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-wrapper p{
+    width: 70%;
+    margin: auto;
+    color: #c4cdd6;
+}
+
+.about-wrapper hr{
+    margin: 45px 0px 0px 208px;
+    width: 50%;
+    height: 1px;
+}
+
+.talk-wrapper p{
+    color: #c4cdd6;
+    width: 70%;
+    margin: auto;
+}
+
+.talk-wrapper span{
+    color: black;
+}
+
+.talk-wrapper i{
+    color: #c4cdd6;
+    margin-right: 5px;
+}
+
+.logo{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: 50%;
+}
+
+@media (max-width:377px){
+    main{
+        width: 90%;
+        margin: none;
+    }
+
+    .img-item-wrapper{
+        display: block;
+    }
+
+    .img-item-wrapper img {
+        margin: auto;
+    }
+
+    .img-wrapper{
+        height: 150px;
+    }
+
+    footer p{
+        width: 95%;
+    }
+
+    .about-wrapper hr{
+        display: none;
+    }
+    .about-wrapper p {
+        width: 87%;
+    }
+    .talk-wrapper p{
+        width: 90%;
+        text-align: center;
+    }
+    .header-all h2 {
+        font-weight: 300;
+    }
+}
+
+@media (min-width:377px) and (max-width: 767px) {
+    main{
+        width: 80%;
+    }
+
+    .img-item-wrapper{
+        display: block;
+    }
+
+    .img-item-wrapper img {
+        margin: auto;
+    }
+
+    footer p{
+        width: 90%;
+    }
+
+    .img-wrapper{
+        height: 300px;
+    }
+
+    .menu-table-wrapper table {
+        width: 80%;
+    }
+    
+    .about-wrapper hr {
+        margin: 44px 0px 0px 128px;
+    }
+    .about-wrapper p {
+        width: 87%;
+    }
+    .talk-wrapper p{
+        width: 90%;
+        text-align: center;
+    }
+}
+  
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main{
+        width: 70%;
+    }
+    .about-wrapper hr {
+        margin: 41px 0px 0px 165px;
+    }
+    .about-wrapper p {
+        width: 87%;
+    }
+    .talk-wrapper p{
+        width: 90%;
+        text-align: center;
+    }
+    .img-item-wrapper{
+        display: block;
+    }
+
+    .img-item-wrapper img {
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    main{
+        width: 60%;
+    }
+    .about-wrapper hr {
+        margin: 41px 0px 0px 180px;
+    }
+    .about-wrapper p {
+        width: 87%;
+    }
+    .talk-wrapper p{
+        width: 90%;
+        text-align: center;
+    }
+}
+ 
