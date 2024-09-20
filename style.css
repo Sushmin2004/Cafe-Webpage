@@ -146,13 +146,20 @@ footer p{
     .about-wrapper hr{
         display: none;
     }
+
+    .img-item-wrapper figcaption{
+        margin-bottom: 25px;
+    }
+
     .about-wrapper p {
         width: 87%;
     }
+
     .talk-wrapper p{
         width: 90%;
         text-align: center;
     }
+
     .header-all h2 {
         font-weight: 300;
     }
@@ -168,7 +175,9 @@ footer p{
     }
 
     .img-item-wrapper img {
+        width: 55%;
         margin: auto;
+        height: 55%;
     }
 
     footer p{
@@ -182,13 +191,19 @@ footer p{
     .menu-table-wrapper table {
         width: 80%;
     }
+
+    .img-item-wrapper figcaption{
+        margin-bottom: 25px;
+    }
     
     .about-wrapper hr {
         margin: 44px 0px 0px 128px;
     }
+
     .about-wrapper p {
         width: 87%;
     }
+
     .talk-wrapper p{
         width: 90%;
         text-align: center;
@@ -200,22 +215,32 @@ footer p{
     main{
         width: 70%;
     }
+
     .about-wrapper hr {
         margin: 41px 0px 0px 165px;
     }
+
     .about-wrapper p {
         width: 87%;
     }
+
     .talk-wrapper p{
         width: 90%;
         text-align: center;
     }
+
     .img-item-wrapper{
         display: block;
     }
 
     .img-item-wrapper img {
+        width: 55%;
         margin: auto;
+        height: 55%;
+    }
+
+    .img-item-wrapper figcaption{
+        margin-bottom: 25px;
     }
 }
 
@@ -223,15 +248,17 @@ footer p{
     main{
         width: 60%;
     }
+
     .about-wrapper hr {
         margin: 41px 0px 0px 180px;
     }
+
     .about-wrapper p {
         width: 87%;
     }
+
     .talk-wrapper p{
         width: 90%;
         text-align: center;
     }
 }
- 
